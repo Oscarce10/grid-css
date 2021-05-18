@@ -1,0 +1,32 @@
+.hide{
+  display: none;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  p {
+    position: relative;
+  }
+  a:hover {
+    text-decoration: none;
+    color: yellow;
+  }
+  a {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ffffff;
+    background-color: coral;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: none;
+  }
+  .link1 a {
+    align-items: start;
+  }
+  .link3 {
+    align-items: end;
+  }
+}

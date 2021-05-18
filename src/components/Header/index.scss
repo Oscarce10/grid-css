@@ -1,0 +1,21 @@
+.header-hr {
+  border: solid 2px black;
+  opacity: 1;
+}
+.inicio {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+
+  h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    color: #2550df;
+  }
+  a {
+    color: coral;
+  }
+  a:hover {
+    color: #fff;
+  }
+}

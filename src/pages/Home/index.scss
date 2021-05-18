@@ -1,0 +1,60 @@
+#home{
+  font-size: 0.7em;
+  font-family: "Lexend Deca", sans-serif;
+  display: grid;
+  grid-template-rows: auto auto;
+
+  a {
+    text-decoration: none;
+    color: #c93164;
+  }
+
+  .text{
+    text-align: center;
+    font-size: 2em;
+  }
+
+  h1 {
+    font-family: "Righteous", cursive;
+    font-size: 80px;
+    color: #d2df25;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+  }
+
+  hr {
+    border: solid 1px black;
+    opacity: 0.7;
+  }
+
+  #lista {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+
+    li {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+      background-color: #123456;
+      border-radius: 8px;
+      text-align: center;
+      font-family: "Righteous", cursive;
+      padding: 8px;
+    }
+
+    li a {
+      color: #fff;
+    }
+
+    li a:hover {
+      text-decoration: none;
+      color: #123456;
+      background-color: #fff;
+      border-radius: 7px;
+    }
+  }
+}
