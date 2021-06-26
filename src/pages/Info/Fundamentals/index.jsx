@@ -2,26 +2,33 @@ import Snippet from "../../../components/Snippet";
 import Footer from "../../../components/Footer";
 import Header from "../../../components/Header";
 import "../../base.scss"
-import {useState, useEffect} from "react"
 import 'highlight.js/styles/vs2015.css'
 
 export default function Fundamentals() {
-    const [code, setCode] = useState([])
-    useEffect(() => {
-        setCode(
-            {
-            }
-        )
-    }, []);
-
     return (
         <div className={"container"}>
             <Header title={"Grid fundamentals"}/>
             <div className={"text"}>
-                La idea es poder generar una especie de cuadrícula con <b>filas</b> y <b>columnas</b>
-                indicadas en las reglas de estilos por medio de <code>grid&#8209;template&#8209;columns</code> y <code>grid&#8209;template&#8209;rows</code>.
-                <br />Para ello debe iniciarse siempre con <code>display:grid;</code> <br />
-                    También podemos usar <code>gap</code> para denotar los espacios que existirán entre cada ítem de la cuadrilla.
+                <p>
+                    <b>CSS Grid Layout</b> es un sistema de diseño de dos dimensiones que llegó para solucionar los
+                    problemas que habían al implementar interfaces web basadas en cuadrículas. Este diseño se basa en el
+                    control de <b>filas</b> y <b>columnas</b> mediante las cuales se va dando forma a lo que se busca
+                    implementar.
+                </p>
+
+                <p>
+                    La primera propiedad que siempre se debe declarar en las reglas de
+                    estilos <b>CSS</b> es <code>display:&nbsp;grid;</code>, la cual define al elemento que se aplica
+                    como un contenedor y establece un formato de cuadrícula para sus contenidos.
+                </p>
+
+                <p>
+                    Seguido a esto podemos definir las <b>filas</b> y/o <b>columnas</b>, esto es por medio de las reglas
+                    de <code>grid&#8209;template&#8209;columns</code> y <code>grid&#8209;template&#8209;rows</code>
+                    respectivamente.
+                    Los valores de cada una de estas representan el tamaño de cada unidad que se declare separada por
+                    espacios.
+                </p>
             </div>
             <div id="content">
                 <div className="ex-1">
