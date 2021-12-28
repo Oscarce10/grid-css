@@ -4,7 +4,9 @@ import 'highlight.js/styles/vs2015.css'
 import HTML from "../../../components/HTML";
 import CSS from "../../../components/CSS";
 import Footer from "../../../components/Footer";
-import "./index.scss"
+import "./index.scss";
+import tracks from '@images/tracks.png';
+import trackLines from '@images/track-lines.png';
 
 export default function DevTools() {
     const [code, setCode] = useState([])
@@ -25,7 +27,7 @@ export default function DevTools() {
                 podemos encontrar unos números denominados <b>tracks</b> que marcan el comienzo y el fin de cada <b>fila</b> y
                 <b> columna</b>.
                 <div className="img">
-                    <img src="/images/tracks.png" alt="tracks css grid" />
+                    <img src={tracks} alt="tracks css grid" />
                 </div>
                 <p className="text">
                     Adicionalmente, se crean varias líneas unas <b>continuas</b> y otras <b>punteadas</b>
@@ -50,7 +52,7 @@ export default function DevTools() {
                         </li>
                     </ul>
                     <div className="img">
-                        <img src="/images/track-lines.png" alt="track lines" height="386" />
+                        <img src={trackLines} alt="track lines" height="386" />
                     </div>
 
                     <p className="text">

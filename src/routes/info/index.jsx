@@ -15,7 +15,9 @@ export default function InfoRoutes() {
             <Route exact path="/info/sizing-tracks" component={SizingTracks}/>
             <Route exact path="/info/repeat-function" component={RepeatFunction}/>
             <Route exact path="/info/span" component={Span}/>
-            <Route path="*" exact component={Error}/>
+            <Route path="*">
+                <Error />
+            </Route>
         </Switch>
     )
 }

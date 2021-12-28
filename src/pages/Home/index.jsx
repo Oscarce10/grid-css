@@ -18,19 +18,19 @@ export default function Home() {
                         <Link to={"/info/dev-tools"}>Dev Tools</Link>
                     </li>
                     <li>
-                        <a href={"/info/auto-flow"}>Grid Auto flow - Columns</a>
+                        <Link to={"/info/auto-flow"}>Grid Auto flow - Columns</Link>
                     </li>
 
                     <li>
-                        <a href={"/info/sizing-tracks"}>Sizing Tracks</a>
+                        <Link to={"/info/sizing-tracks"}>Sizing Tracks</Link>
                     </li>
 
                     <li>
-                        <a href={"/info/repeat-function"}>Repeat Function</a>
+                        <Link to={"/info/repeat-function"}>Repeat Function</Link>
                     </li>
 
                     <li>
-                        <a href={"/info/span"}>Span</a>
+                        <Link to={"/info/span"}>Span</Link>
                     </li>
 
 
